@@ -9,7 +9,7 @@ WORKDIR /usr/app
 COPY src/package*.json ./
 
 #RUN npm install -g npm@8.10.0
-RUN npm install
+RUN npm install -g npm@8.10.0
 # If you are building your code for production
 # RUN npm ci --only=production
 
