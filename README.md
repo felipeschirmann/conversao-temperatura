@@ -12,6 +12,6 @@ OR just:
 
 ``docker build . -t felipeschirmann/conversao-temperatura:v1.0.0``
 
-``docker run -d -p 8083:80 felipeschirmann/conversao-temperatura:v1.0.0``
+``docker run -d -p 8082:8080 felipeschirmann/conversao-temperatura:v1.0.0``
 
 ![doc](https://raw.githubusercontent.com/felipeschirmann/conversao-temperatura/main/imgs/conversao-doc-conversao-temperatura.drawio.svg)
