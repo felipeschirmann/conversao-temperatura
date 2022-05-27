@@ -7,3 +7,11 @@ the script build.sh receive arguments the node-version for construct image of ap
 
 example:
 ``bash build.sh node:slim 1.0.0``
+
+OR just: 
+
+``docker build . -t felipeschirmann/conversao-temperatura:v1.0.0``
+
+``docker run -d -p 8083:80 felipeschirmann/conversao-temperatura:v1.0.0``
+
+![doc](https://raw.githubusercontent.com/felipeschirmann/conversao-temperatura/main/imgs/conversao-doc.drawio.svg)
